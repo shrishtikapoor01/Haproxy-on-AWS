@@ -10,8 +10,8 @@
      security_group: sg-01b91913b5e7046d0
      key_name: aws2020key
      name: osl-lb
-     aws_access_key: 
-     aws_secret_key: 
+     aws_access_key: (Give AWS Access Key)
+     aws_secret_key: (Give AWS Secret key)
      state: present
     register: x
   - ec2_instance:
@@ -22,8 +22,8 @@
      security_group: sg-01b91913b5e7046d0
      key_name: aws2020key
      name: os2-ws1
-     aws_access_key: 
-     aws_secret_key:
+     aws_access_key: (Give AWS Access Key)
+     aws_secret_key: (Give AWS Secret key)
      state: present
 
     register: y
@@ -35,8 +35,8 @@
      security_group: sg-01b91913b5e7046d0
      key_name: aws2020key
      name: os3-ws2
-     aws_access_key: 
-     aws_secret_key: 
+     aws_access_key: (Give AWS Access Key)
+     aws_secret_key: (Give AWS Secret key)
      state: present
 
     register: z
